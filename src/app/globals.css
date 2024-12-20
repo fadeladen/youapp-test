@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #fff;
+  background: #09141a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-gradient {
+  background: radial-gradient(
+    circle,
+    rgba(31, 66, 71, 1) 0%,
+    rgba(13, 29, 35, 1) 83%,
+    rgba(9, 20, 26, 1) 100%
+  );
+}
+
+.btn-auth {
+  @apply bg-gradient-to-r from-teal-400 to-blue-500;
+}
+
+.bg-primary {
+  @apply bg-[#0E191F];
+}
